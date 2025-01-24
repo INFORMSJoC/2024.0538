@@ -1,3 +1,3 @@
 # Data for replication
 
-Here is the data needed for replicating the experiments. 
+As described in the paper, all data is generated procedurally using a random number generator.
