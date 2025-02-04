@@ -18,7 +18,7 @@ During the experiments, various seeds were utilized for the execution of `main.p
 
 ### Data Storage for Large Trees
 
-Due to the considerable size of the decision trees constructed, especially for large sample sizes, not all trees were stored. Only three representative trees with sample sizes of 1,000, 10,000, and 100,000 hyperpoints were saved. These serve as examples to illustrate the behavior of the algorithm under different conditions and constraints.
+Due to the considerable size of the decision trees constructed, especially for large sample sizes, not all trees were stored. Only three representative trees with sample sizes of 1,000, 10,000, and 100,000 hyperpoints were saved, in the folder results/tree_examples. These serve as examples to illustrate the behavior of the algorithm under different conditions and constraints.
 
 
 
