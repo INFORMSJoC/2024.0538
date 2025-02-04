@@ -6,7 +6,7 @@
 
 ## Description
 
-This paper presents a computer-aided proof of a novel approach to constructing a new upper bound for the Euclidean Traveling Salesman Problem (TSP) Constant, leveraging numerical methods and decision trees. While the improvement achieved is modest, the approach offers a key advantage: it is primarily constrained by computer hardware, making it highly amenable to further optimization and advancements over time.
+This paper presents a computer-aided proof of a novel approach to constructing a new upper bound for the Euclidean Traveling Salesman Problem (TSP) Constant, leveraging numerical methods and decision trees. While the improvement achieved is modest, the approach offers a key advantage: it is primarily constrained by computer hardware, making it highly amenable to further optimization and advancements over time. 
 
 This repository contains the implementation used to compute these upper bounds through advanced numerical methods and algorithms. The project is designed for efficiency, utilizing interval arithmetic (mpmath.iv) and other mathematical libraries. Key functionalities include calculations for leaf contributions.
 
