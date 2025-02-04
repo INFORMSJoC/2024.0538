@@ -10,6 +10,18 @@ This paper presents a computer-aided proof of a novel approach to constructing a
 
 This repository contains the implementation used to compute these upper bounds through advanced numerical methods and algorithms. The project is designed for efficiency, utilizing interval arithmetic (mpmath.iv) and other mathematical libraries. Key functionalities include calculations for leaf contributions.
 
+## Experiment Setup
+
+### Random Seed Information
+
+During the experiments, various seeds were utilized for the execution of `main.py`, which are specified in the output files in the results folder. These seeds range from 0 to 9, as indicated by the numbers in parentheses (e.g., `(1)`, `(2)`, etc.) in the `.out` files. This ensures reproducibility of the results by allowing for consistent random number generation across different runs.
+
+### Data Storage for Large Trees
+
+Due to the considerable size of the decision trees constructed, especially for large sample sizes, not all trees were stored. Only three representative trees with sample sizes of 1,000, 10,000, and 100,000 hyperpoints were saved. These serve as examples to illustrate the behavior of the algorithm under different conditions and constraints.
+
+
+
 ## License
 
 This project is licensed under the Apache License, Version 2.0. See the LICENSE file or visit the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) for details.
